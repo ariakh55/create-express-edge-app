@@ -1,0 +1,12 @@
+@include('components/header')
+@if(err == 404)
+<div class="error">
+    404 NotFound
+</div>
+@else
+<div class="error">
+    500 InternalError
+</div>
+@endif
+    
+@include('components/footer')
