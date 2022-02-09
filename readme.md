@@ -3,6 +3,15 @@
 Express js webserver integration with edgejs templating engine using webpack assets manager and hot reloading.
 
 ## Getting started
+
+just enter the following command in your terminal
+
+```bash
+$npx create-express-edge-app -y {yourAppName}
+```
+
+**OR**
+
 clone this repository
 
 then
