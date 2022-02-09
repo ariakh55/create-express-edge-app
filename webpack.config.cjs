@@ -11,6 +11,12 @@ const webPackConfig = {
     },
     mode: config.isProd ? "production" : "development",
     devServer: {
+        client: {
+            overlay: {
+                warnings: false,
+                errors: true
+            }
+        },
         open: ['http://localhost:5005/'],
         watchFiles: [`${config.srcFolder}/**/*.edge`],
         static: {
