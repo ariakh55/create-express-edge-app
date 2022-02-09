@@ -7,7 +7,7 @@ Express js webserver integration with edgejs templating engine using webpack ass
 just enter the following command in your terminal
 
 ```bash
-$npx create-express-edge-app -y {yourAppName}
+$npx create-express-edge-app {yourAppName}
 ```
 
 **OR**
