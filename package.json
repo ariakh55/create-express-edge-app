@@ -1,6 +1,6 @@
 {
   "name": "create-express-edge-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack integration with edge templating engine (ft. Hot Reloading)",
   "main": "./src/app.js",
   "bin": "./bin/cli.cjs",
