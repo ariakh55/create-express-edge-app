@@ -1,7 +1,7 @@
 {
-  "name": "merly-express",
+  "name": "express-edge-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack integration with edge templating engine (ft. Hot Reloading)",
   "main": "./src/app.js",
   "type": "module",
   "scripts": {
@@ -13,9 +13,17 @@
     "pm2:start": "node src/app.js",
     "test": "mocha tests/ --timeout=12000"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "webserver",
+    "edgejs",
+    "webpack",
+    "adonis",
+    "hot reload",
+    "scss"
+  ],
+  "author": "Aria Khsohnood <khoshnoodaria@gmail.com> (https://ariakhoshnood.ir)",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.1",
